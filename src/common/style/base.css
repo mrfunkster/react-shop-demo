@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url(./patt.png);
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	padding-bottom: 66px;
+	min-height: 100vh;
+}
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.container {
+	margin:0 auto;
+}
+.row:after {
+	display: block;
+	clear: both;
+	content:"";
+}
+[class*="col-"] {
+	float: left;
+}
+.col-lg-3 {
+	width: 25%;
+}
+.col-lg-6 {
+	width: 50%;
+}
+.col-lg-9 {
+	width: 75%;
+}
+.text-center {
+	text-align: center;
+}
+.page-tittle {
+	font-size: 32px;
+	color: white;
+	text-align: center;
+	padding: 15px 0;
+}
+
+@media(min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media(min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media(min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+.show-message {
+	transition: .3s;
+	padding: 0;
+}
+.show-message.active {
+	padding-top: 30px;
+}

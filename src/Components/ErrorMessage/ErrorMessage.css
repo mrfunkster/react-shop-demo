@@ -1,0 +1,31 @@
+.error-message {
+    background-color: rgba(224, 12, 12, 0.95);
+    border-bottom: 1px solid white;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.error-message.active {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.notification {
+    background-color: white;
+    color: #2c71b8;
+    border-bottom: 1px solid #2c71b8;
+}
+
+.error-message-text {
+
+    padding: 10px;
+    text-align: center;
+}

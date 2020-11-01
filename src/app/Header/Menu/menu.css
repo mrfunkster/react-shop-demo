@@ -1,0 +1,29 @@
+.menu ul:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+.menu > ul > li {
+	float: left;
+	width: 25%;
+	border-right: 1px solid #2c71b8;
+
+}
+.menu > ul > li:first-child {
+	border-left: 1px solid #2c71b8;
+}
+.menu > ul li > a {
+	display: block;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	font-size: 21px;
+	font-weight: 300;
+	color:#2c71b8;
+}
+.menu > ul li > a:hover {
+	background-color: #2c71b8;
+	color:white;
+	cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.footer {
+    background-color: rgba(255, 255, 255, .9);
+    padding: 25px;
+}
+
+.footer p {
+    color: #2c71b8;
+}
